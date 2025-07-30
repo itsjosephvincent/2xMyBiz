@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100% !important;
+    background-color: #014C9F !important;
+}
+
+.card-div {
+    padding: 0px !important;
+    height: 100vh !important;
+}
+
+.logo-div {
+    margin-top: 5rem !important;
+}
+
+.login-card {
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    height: 100% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.login-btn {
+    background-color: #4466F2 !important;
+    text-align: center !important;
+    width: 100% !important;
+}
+
+.small-text {
+    font-size: small !important;
+}
+
+.xsmall-text {
+    font-size: x-small !important;
+}
+
+.xxsmall-text {
+    font-size: xx-small !important;
+}

@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hidden {
+    display: none;
+}
+
+.right-card {
+    background: #972FDB;
+    background: -webkit-linear-gradient(to left, #972FDB, #2E0696);
+    background: linear-gradient(to left, #972FDB, #2E0696);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.left-card {
+    background: #972FDB;
+    background: -webkit-linear-gradient(to left, #972FDB, #252595);
+    background: linear-gradient(to left, #972FDB, #252595);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.search-card {
+    background: #11998e;
+    background: -webkit-linear-gradient(to right, #11998e, #38ef7d);
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.saved-card {
+    background: #c0392b;
+    background: -webkit-linear-gradient(to right, #8e44ad, #c0392b);
+    background: linear-gradient(to right, #8e44ad, #c0392b);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.contacted-card {
+    background: #fc4a1a;
+    background: -webkit-linear-gradient(to left, #f7b733, #fc4a1a);
+    background: linear-gradient(to left, #f7b733, #fc4a1a);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.closed-card {
+    background: #2193b0;
+    background: -webkit-linear-gradient(to left, #6dd5ed, #2193b0);
+    background: linear-gradient(to left, #6dd5ed, #2193b0);
+    border: 1px transparent !important;
+    border-radius: 8px !important;
+}
+
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+.bg-bluemagenta {
+    background-color: #000084 !important;
+    color: white !important;
+}
+
+.bg-deepblue {
+    background-color: #2E0696 !important;
+    color: white !important;
+}
+
+.bg-deeppurple {
+    background-color: #4B10A7 !important;
+    color: white !important;
+}
+
+.bg-darkviolet {
+    background-color: #641AB8 !important;
+    color: white !important;
+}
+
+.bg-deepviolet {
+    background-color: #7E2fCA !important;
+    color: white !important;
+}
+
+.bg-darklavender {
+    background-color: #972FDB !important;
+    color: white !important;
+}
+
+.bg-brightpurple {
+    background-color: #B039EC !important;
+    color: white !important;
+}
+
+.bg-hotpink {
+    background-color: #FF09A0 !important;
+    color: white !important;
+}
+
+.bg-brightpink {
+    background-color: #FF3F83 !important;
+    color: white !important;
+}
+
+.bg-brightred {
+    background-color: #FF6D6A !important;
+    color: white !important;
+}
+
+.bg-brightorange {
+    background-color: #FF965B !important;
+    color: white !important;
+}
+
+.bg-vividorange {
+    background-color: #FFBD5A !important;
+    color: black !important;
+}
+
+.bg-lemonyellow {
+    background-color: #FFDF6A !important;
+    color: black !important;
+}
+
+.bg-pastelyellow {
+    background-color: #FFFF8B !important;
+    color: black !important;
+}
+
+.bg-midnightblue {
+    background-color: #1A2334 !important;
+    color: white !important;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.post-content::-webkit-scrollbar {
+    width: 10px;
+}

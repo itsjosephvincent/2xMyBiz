@@ -1,0 +1,16 @@
+.circle svg {
+    margin-top: 11px !important;
+    text-align: center !important;
+}
+
+.social-caption {
+    margin-top: 15px !important;
+}
+
+.collection {
+    border: none !important;
+}
+
+.collection-item {
+    border-bottom: none !important;
+}
